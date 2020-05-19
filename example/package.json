@@ -1,0 +1,15 @@
+{
+	"private": true,
+	"name": "example",
+	"version": "0.0.0",
+	"scripts": {
+		"build": "parcel build src/*.html"
+	},
+	"devDependencies": {
+		"parcel": "^2.0.0-alpha.3.2",
+		"@mischnic/parcel-namer-preserve-structure": "*"
+	},
+	"dependencies": {
+		"lodash": "^4.17.15"
+	}
+}

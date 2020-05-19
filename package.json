@@ -1,0 +1,7 @@
+{
+	"private": "true",
+	"workspaces": [
+		"example",
+		"parcel-namer-preserve-structure"
+	]
+}

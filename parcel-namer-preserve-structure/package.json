@@ -1,0 +1,22 @@
+{
+	"name": "@mischnic/parcel-namer-preserve-structure",
+	"version": "0.1.0",
+	"license": "MIT",
+	"main": "index.js",
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mischnic/parcel-namer-preserve-structure.git"
+	},
+	"dependencies": {
+		"@parcel/diagnostic": "^2.0.0-alpha.3.2",
+		"@parcel/plugin": "^2.0.0-alpha.3.2",
+		"nullthrows": "^1.1.1"
+	},
+	"engines": {
+		"node": ">=10",
+		"parcel": ">=2.0.0-alpha"
+	}
+}
