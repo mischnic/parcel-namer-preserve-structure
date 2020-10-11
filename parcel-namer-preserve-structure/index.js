@@ -83,7 +83,7 @@ module.exports = (new Namer({
     // Base split bundle names on the first bundle in their group.
     // e.g. if `index.js` imports `foo.css`, the css bundle should be called
     //      `index.css`.
-    let name = nameFromContent(mainBundle, options.rootDir);
+    let name = nameFromContent(mainBundle, options.entryRoot);
     if (!bundle.isEntry) {
       name += "." + bundle.hashReference;
     }
