@@ -6,10 +6,10 @@
 		"build": "parcel build src/*.html"
 	},
 	"devDependencies": {
-		"parcel": "^2.0.0-alpha.3.2",
+		"parcel": "^2.0.0-nightly.420",
 		"@mischnic/parcel-namer-preserve-structure": "*"
 	},
 	"dependencies": {
-		"lodash": "^4.17.15"
+		"lodash": "^4.17.20"
 	}
 }

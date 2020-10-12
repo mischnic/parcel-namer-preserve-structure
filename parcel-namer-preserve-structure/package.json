@@ -11,8 +11,8 @@
 		"url": "https://github.com/mischnic/parcel-namer-preserve-structure.git"
 	},
 	"dependencies": {
-		"@parcel/diagnostic": "^2.0.0-alpha.3.2",
-		"@parcel/plugin": "^2.0.0-alpha.3.2",
+		"@parcel/diagnostic": "^2.0.0-nightly.420",
+		"@parcel/plugin": "^2.0.0-nightly.420",
 		"nullthrows": "^1.1.1"
 	},
 	"engines": {
