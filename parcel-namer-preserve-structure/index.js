@@ -88,7 +88,7 @@ module.exports = (new Namer({
     let name = nameFromContent(
       mainBundle,
       bundleGroup.entryAssetId,
-      options.entryRoot
+      bundleGraph.getEntryRoot(bundle.target)
     );
     if (!bundle.isEntry) {
       name += "." + bundle.hashReference;
