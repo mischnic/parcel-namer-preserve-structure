@@ -6,7 +6,7 @@
 		"build": "parcel build src/*.html"
 	},
 	"devDependencies": {
-		"parcel": "^2.0.0-nightly.420",
+		"parcel": "^2.0.0",
 		"@mischnic/parcel-namer-preserve-structure": "*"
 	},
 	"dependencies": {
